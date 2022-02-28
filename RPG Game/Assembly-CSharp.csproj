@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{953c17af-12b7-089a-a611-1443c059f449}</ProjectGuid>
+    <ProjectGuid>{7a4c20a2-5fcd-1a64-ace3-f478e5c0fa7b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,7 +38,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
-     <Compile Include="Assets\Scripts\Test.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -224,13 +223,13 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.33f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.33f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -578,97 +577,97 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.33f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Stores">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Analytics.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-        <HintPath>E:\Code\Unity3d\RPGGame-main\RPGGame-main\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+        <HintPath>C:\Users\ad\Documents\GitHub\RPGGame\RPG Game\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
