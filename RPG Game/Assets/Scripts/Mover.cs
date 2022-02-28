@@ -11,10 +11,11 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
-            MoveToCursor();
+        if (Input.GetMouseButton(1))
+        { 
+            MoveToCursor();  
         }
+        UpdateAnimator();
     }
     void MoveToCursor()
     {
@@ -26,5 +27,12 @@ public class Mover : MonoBehaviour
             GetComponent<NavMeshAgent>().destination = hit.point;
 
         }
+    }
+    void UpdateAnimator()
+    {
+        Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(velocity);
+        float speed = localVelocity.z;
+        GetComponent<Animator>().SetFloat("forwardSpeed",speed);
     }
 }

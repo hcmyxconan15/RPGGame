@@ -128,6 +128,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3938894381823042020}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &99095641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6490099653105053929, guid: b4f52e00d54ab144d9fd39d130977791,
+    type: 3}
+  m_PrefabInstance: {fileID: 3938894381823042020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &99095645
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99095641}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1dec72014e5654443a7d5ebbae7f6cfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &148064063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1484,6 +1509,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3466227155580656859, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466227155580656859, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466227155580656859, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3938894382852292124, guid: b4f52e00d54ab144d9fd39d130977791,
         type: 3}
       propertyPath: target
@@ -1497,6 +1537,21 @@ PrefabInstance:
     - target: {fileID: 7000383467019312268, guid: b4f52e00d54ab144d9fd39d130977791,
         type: 3}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000383467019312268, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000383467019312268, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000383467019312268, guid: b4f52e00d54ab144d9fd39d130977791,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7463901668639751754, guid: b4f52e00d54ab144d9fd39d130977791,
